@@ -1,0 +1,31 @@
+{
+  "name": "@perfect-auxiliary-tools/core",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "wakeup <1874803565@qq.com>",
+  "homepage": "https://github.com/wakeupfive/perfect-auxiliary-tools/tree/main/packages/core#readme",
+  "license": "ISC",
+  "main": "dist/core.min.js",
+  "module": "dist/core.esm.js",
+  "typings": "dist/types/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.kuaizitech.cn/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakeupfive/perfect-auxiliary-tools.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/wakeupfive/perfect-auxiliary-tools/issues"
+  }
+}
