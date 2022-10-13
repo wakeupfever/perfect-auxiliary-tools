@@ -1,0 +1,34 @@
+{
+  "name": "@perfect-auxiliary-tools/auxiliary-cli",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "xuliang <xuliang@kuaizi.ai>",
+  "homepage": "https://github.com/wakeupfive/perfect-auxiliary-tools/tree/main/packages/execute-command#readme",
+  "license": "ISC",
+  "main": "dist/core.min.js",
+  "module": "dist/core.esm.js",
+  "typings": "dist/types/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.kuaizitech.cn/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakeupfive/perfect-auxiliary-tools.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/wakeupfive/perfect-auxiliary-tools/issues"
+  },
+  "dependencies": {
+    "commander": "^9.4.1"
+  }
+}
